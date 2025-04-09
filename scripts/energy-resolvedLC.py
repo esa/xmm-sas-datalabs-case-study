@@ -17,9 +17,21 @@ from matplotlib.colors import LogNorm
 from matplotlib.ticker import ScalarFormatter  # For formatting axis labels
 
 
-wdir=os.getcwd()
+# Define path to working directory
 home = os.path.expanduser('~')
-os.environ['SAS_CCFPATH'] = f'{home}/data/user/pub'
+wdir=f'{home}/VelaX1-data'
+
+# Set up path to CCFs
+ccf_paths = ['/data/user/pub', '/data/pub']
+for user_ccfpath in ccf_paths:
+    ccf_path = f'{home}{user_ccfpath}'
+    if os.path.isdir(ccf_path):
+        os.environ['SAS_CCFPATH'] = ccf_path
+        print("Path to the XMM-Newton CCFs: " + ccf_path + "\n")
+        break
+else:
+    raise FileNotFoundError("Cannot locate the specified CCF paths, please check your data volume.")
+    
 inargs = [f'sas_ccf={wdir}/ccf.cif', f'sas_odf={wdir}/3553_0841890201_SCX00000SUM.SAS', f'workdir={wdir}']
 w('startsas', inargs).run()
 

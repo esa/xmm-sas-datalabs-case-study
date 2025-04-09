@@ -1,3 +1,8 @@
+Copyright (c) European Space Agency, 2025.
+
+<small><em>This file is subject to the terms and conditions defined in file 'LICENCE.txt', which is part of this source code package. No part of the package, including this file, may be copied, modified, propagated, or distributed except according to the terms contained in the file ‘LICENCE.txt’.</em></small>
+***
+
 # Scripts for Looped SAS Tasks
 
 This directory, named **"scripts"**, is a collection of Python scripts designed to simplify looped data extration using pySAS. The scripts can be customised by copying them to a personal directory.
