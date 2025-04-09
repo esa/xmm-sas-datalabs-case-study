@@ -1,3 +1,8 @@
+Copyright (c) European Space Agency, 2025.
+
+<small><em>This file is subject to the terms and conditions defined in file 'LICENCE.txt', which is part of this source code package. No part of the package, including this file, may be copied, modified, propagated, or distributed except according to the terms contained in the file ‘LICENCE.txt’.</em></small>
+***
+
 # Python Tools for Visualisation
 
 This directory, named **"tools"**, is a collection of Python functions designed to simplify data visualisation. These files include interactive plotting and image visualization functions tailored for XMM-Newton data. The functions can be customised by copying them to a personal directory.
