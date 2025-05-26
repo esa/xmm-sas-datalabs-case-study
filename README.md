@@ -18,12 +18,22 @@ Check [ReadMeScripts.md](ReadMeScripts.md) for details on the Python scripts.
 * [scripts](scripts): Python scripts to run looped SAS tasks to extract data.
 
 ## Pre-requisites
-If running the Notebook on [ESA Datalabs](https://datalabs.esa.int/) inside the XMM-SAS datalab, no pre-requisites are required.
+If running the Notebook on [ESA Datalabs](https://datalabs.esa.int/) inside the XMM-SAS datalab, no pre-requisites are required. **Everything is already pre-configured inside the datalab!**
 
-To run locally you need python 3.10 or above and standard packages like `astropy`, `numpy`, `scipy`, `plotly`, `lcviz` and [HEASOFT](https://heasarc.gsfc.nasa.gov/lheasoft/) built from source in order to have `pyXspec` available. You will need SAS version 21.
+### To run locally
+To run the Notebook locally you need python 3.10 or above and standard packages like
+* `numpy`: BSD License
+* `matplotlib`: Python Software Foundation License
+* `astropy`: BSD-3-Clause license
+* `IPython`: BSD-3-Clause license
+* `plotly`: MIT License
+* `lcviz`: BSD-3-Clause license
+* See [requirements.txt](requirements.txt) for full list.
+
+The Docker container environment used in the XMM-SAS Datalab has [HEASOFT](https://heasarc.gsfc.nasa.gov/lheasoft/) built from source in order to also have `xspec` available (MIT license). You will need SAS version 21.0.0 to have access to pysas-wrapper (GPL-3.0 license) and SAS commands.
 
 ---
 
 *Author: Esin G. Gulbahar*
 
-*Last Updated: 09/04/2025*
+*Last Updated: 26/05/2025*
