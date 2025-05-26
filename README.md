@@ -6,7 +6,7 @@ Copyright (c) European Space Agency, 2025.
 # XMM-Newton SAS in ESA Datalabs
 ### *A New Browser Based Interactive Environment for XMM-Newton Analysis*
 
-This is a repository with code and data analysis notebook for the X-ray binary Vela X-1 presented in the paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5177091.
+This is a repository with code and data analysis notebook for the X-ray binary Vela X-1 presented in the paper: [SAS in ESA Datalabs: A New Platform for XMM-Newton Analysis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5177091).
 
 Check [ReadMeTools.md](ReadMeTools.md) for details on the Python functions.
 Check [ReadMeScripts.md](ReadMeScripts.md) for details on the Python scripts.
@@ -22,15 +22,16 @@ If running the Notebook on [ESA Datalabs](https://datalabs.esa.int/) inside the 
 
 ### To run locally
 To run the Notebook locally you need python 3.10 or above and standard packages like
-* `numpy`: BSD License
-* `matplotlib`: Python Software Foundation License
-* `astropy`: BSD-3-Clause license
-* `IPython`: BSD-3-Clause license
-* `plotly`: MIT License
-* `lcviz`: BSD-3-Clause license
+* [`numpy`](https://numpy.org/): BSD License
+* [`matplotlib`](https://matplotlib.org/): Python Software Foundation License
+* [`astropy`](https://www.astropy.org/): BSD-3-Clause license
+* [`IPython`](https://ipython.org/): BSD-3-Clause license
+* [`plotly`](https://plotly.com/): MIT License
+* [`jpyjs9`](https://github.com/zoghbi-a/jpyjs9): MIT License
+* [`lcviz`](https://lcviz.readthedocs.io/en/stable/): BSD-3-Clause license
 * See [requirements.txt](requirements.txt) for full list.
 
-The Docker container environment used in the XMM-SAS Datalab has [HEASOFT](https://heasarc.gsfc.nasa.gov/lheasoft/) built from source in order to also have `xspec` available (MIT license). You will need SAS version 21.0.0 to have access to pysas-wrapper (GPL-3.0 license) and SAS commands.
+The Docker container environment used in the XMM-SAS Datalab has [HEASOFT](https://heasarc.gsfc.nasa.gov/lheasoft/) built from source in order to also have `xspec` available (MIT license). You will need [SAS](https://www.cosmos.esa.int/web/xmm-newton/what-is-sas) version 21.0.0 to have access to pysas-wrapper (GPL-3.0 license) and SAS commands.
 
 ---
 
