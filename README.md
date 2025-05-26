@@ -31,7 +31,7 @@ To run the Notebook locally you need python 3.10 or above and standard packages 
 * [`lcviz`](https://lcviz.readthedocs.io/en/stable/): BSD-3-Clause license
 * See [requirements.txt](requirements.txt) for full list.
 
-The Docker container environment used in the XMM-SAS Datalab has [HEASOFT](https://heasarc.gsfc.nasa.gov/lheasoft/) built from source in order to also have `xspec` available (MIT license). You will need [SAS](https://www.cosmos.esa.int/web/xmm-newton/what-is-sas) version 21.0.0 to have access to pysas-wrapper (GPL-3.0 license) and SAS commands.
+The Docker container environment used in the XMM-SAS Datalab has [HEASOFT](https://heasarc.gsfc.nasa.gov/lheasoft/) built from source in order to also have [`xspec`](https://heasarc.gsfc.nasa.gov/xanadu/xspec/) available (MIT license). You will need [SAS](https://www.cosmos.esa.int/web/xmm-newton/what-is-sas) version 21.0.0 to have access to pysas-wrapper (GPL-3.0 license) and SAS commands.
 
 ---
 
