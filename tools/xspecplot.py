@@ -4,6 +4,19 @@
 #   is part of this source code package. No part of the package, including
 #   this file, may be copied, modified, propagated, or distributed except according to
 #   the terms contained in the file ‘LICENCE.txt’.
+#
+# The latest Xspec reference is https://ui.adsabs.harvard.edu/abs/1996ASPC..101…17A/abstract<https://ui.adsabs.harvard.edu/abs/1996ASPC..101%E2%80%A617A/abstract>
+# Xspec 12 was developed by: Keith Arnaud<https://heasarc.gsfc.nasa.gov/docs/bios/arnaud.html>, Ben Dorman, and Craig Gordon
+# HEASARC<https://heasarc.gsfc.nasa.gov/> Software Development, Astrophysics Science Divsion
+# Code 660.1, NASA/GSFC, Greenbelt MD 20771
+#
+# Please send comments, questions, and bug reports to xspechelp@athena.gsfc.nasa.gov[cid:image001.gif@01DBF4A2.DDE7B1F0]<mailto:xspechelp@athena.gsfc.nasa.gov>
+#
+# Disclaimer of endorsement
+#
+# The U.S. government, including NASA, neither endorses nor guarantees in any way the external organizations, services, advice, or products included in the external website links. 
+# Furthermore, the U.S. government neither controls nor guarantees the accuracy, relevance, timeliness, or completeness of the information contained in non-government website links.
+
 
 import os.path
 from os import path
