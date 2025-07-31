@@ -6,7 +6,7 @@ Copyright (c) European Space Agency, 2025.
 # XMM-Newton SAS in ESA Datalabs
 ### *A New Browser Based Interactive Environment for XMM-Newton Analysis*
 
-This is a repository with code and data analysis notebook for the X-ray binary Vela X-1 presented in the paper: [SAS in ESA Datalabs: A New Platform for XMM-Newton Analysis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5177091).
+This is a repository with code and data analysis notebook for the X-ray binary Vela X-1 presented in the paper: [SAS in ESA Datalabs: A New Platform for XMM-Newton Analysis](https://www.sciencedirect.com/science/article/pii/S2213133725000423?via%3Dihub).
 
 Check [ReadMeTools.md](ReadMeTools.md) for details on the Python functions.
 Check [ReadMeScripts.md](ReadMeScripts.md) for details on the Python scripts.
